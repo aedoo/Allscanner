@@ -16,7 +16,6 @@ from postgresql.postgresql import postgreburp
 from mssql.mssql import mssqlburp
 from memcached.memcached import memcachedburp
 from elasticsearch.elasticsearch import elasticburp
-from telnet.telnet import telnetburp
 
 
 class AllScanner(threading.Thread):
@@ -43,7 +42,7 @@ class AllScanner(threading.Thread):
                     memcachedburp(ip,11211)
                     elasticburp(ip,9200)
                     # telnetburp(ip,23)
-                    #ldapburp(ip,389)
+                    ldapburp(ip,389)
 
                 except Exception:
                     continue
@@ -56,7 +55,7 @@ def main():
     print logo + '\n'
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', dest='cidr_ip', default='192.168.62.1/24', help='IP segment like 192.168.1.1/16 contains 65536 IP.')
+    parser.add_argument('-i', dest='cidr_ip', help='IP segment like 192.168.1.1/16 contains 65536 IP.')
     parser.add_argument('-t', dest='thread_number', type=int, default=100, help='Setting the number of threads')
     args = parser.parse_args()
 
