@@ -2,7 +2,24 @@
 弱端口的弱口令爆破以及未授权访问的集成检测工具。 
 Weak password blasting of weak ports and integrated detection tools for unauthorized access.
 
+目前支持的弱服务检测包括如下：
 
+`21 FTP  弱口令检测`
+`139 LDAP 未授权访问检测`
+`1433 MSSQL 弱口令检测`
+`3306 MYSQL 弱口令检测、未授权访问检测`
+`11211 MEMCACHED 未授权访问检测`
+`6379 Redis 未授权访问检测`
+`27017 MongoDB 未授权访问检测`
+`9200 Elasticsearch 未授权访问检测`
+
+之后可能还会加入：
+22 SSH 
+23 Telnet （登录方式繁杂并且速度较慢，暂时不考虑加入）
+139 Samba
+873 rsync 
+5901 VNC 
+3389 RDP
 
 ## 使用说明 ##
 
