@@ -17,7 +17,7 @@ Weak password blasting of weak ports and integrated detection tools for unauthor
 22 SSH 
 23 Telnet （登录方式繁杂并且速度较慢，暂时不考虑加入）
 139 Samba
-873 rsync 
+873 RSYNC
 5901 VNC 
 3389 RDP
 
@@ -27,13 +27,9 @@ Weak password blasting of weak ports and integrated detection tools for unauthor
 
 `python allscanner.py -h`
 
-
-
 ### 运行示例（扫描192.168.1这个C段的所服务） ###
 
 `python allscanner.py -i 192.168.1.1/24 -t 200`
-
-
 
 ### 参数说明
 
