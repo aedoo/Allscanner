@@ -52,7 +52,8 @@ def main():
     print ''
     logo_encode = 'ICAgIF9fXyAgICBfX19fX19fX18gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgLyAgIHwgIC8gLyAvIF9fXy9fX19fX19fX19fX19fX18gIF9fX18gIF9fXyAgX19fX18KICAvIC98IHwgLyAvIC9cX18gXC8gX19fLyBfXyAgLyBfXyBcLyBfXyBcLyBfIFwvIF9fXy8KIC8gX19fIHwvIC8gL19fXy8gLyAvX18vIC9fLyAvIC8gLyAvIC8gLyAvICBfXy8gLyAgICAKL18vICB8Xy9fL18vL19fX18vXF9fXy9cX19fXy9fLyAvXy9fLyAvXy9cX19fL18v='
     logo = base64.b64decode(logo_encode)
-    print logo + '\n'
+    print logo + '\n\n'
+    print 'github:https://github.com/aedoo/' + '\n\n'
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', dest='cidr_ip', help='IP segment like 192.168.1.1/16 contains 65536 IP.')
