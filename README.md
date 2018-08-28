@@ -25,3 +25,9 @@ Weak password blasting of weak ports and integrated detection tools for unauthor
 `-i：接需要扫描的CIDR IP段，如192.168.1.1/24。`
 
 `-t：线程数，不加此参数默认为100。`
+
+
+
+### 运行截图（如果FTP爆出大量弱口令，说明未授权访问或者无密码登录）###
+
+![](https://raw.githubusercontent.com/aedoo/Allscanner/master/result.png)
