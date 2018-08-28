@@ -1,0 +1,6 @@
+ftp
+admin
+root
+wwwroot
+anonymous
+user
