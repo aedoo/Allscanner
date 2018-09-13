@@ -12,6 +12,7 @@ Weak password blasting of weak ports and integrated detection tools for unauthor
 `6379 Redis 未授权访问检测`
 `27017 MongoDB 未授权访问检测`
 `9200 Elasticsearch 未授权访问检测`
+`1521 Oracle 弱口令检测`
 
 之后可能还会加入：
 22 SSH 
