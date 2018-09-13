@@ -16,6 +16,8 @@ from postgresql.postgresql import postgreburp
 from mssql.mssql import mssqlburp
 from memcached.memcached import memcachedburp
 from elasticsearch.elasticsearch import elasticburp
+from oracle.oracle import oracleburp
+from ldapc.ldap import ldapburp
 
 
 class AllScanner(threading.Thread):
@@ -41,8 +43,8 @@ class AllScanner(threading.Thread):
                     mssqlburp(ip,1433)
                     memcachedburp(ip,11211)
                     elasticburp(ip,9200)
-                    # telnetburp(ip,23)
                     ldapburp(ip,389)
+                    oracleburp(ip,1521)
 
                 except Exception:
                     continue

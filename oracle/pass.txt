@@ -1,0 +1,10 @@
+
+manager
+oem_temp
+tiger
+aqadm
+dbsnmp
+admin
+123456
+sa
+test

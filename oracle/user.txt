@@ -1,0 +1,9 @@
+sa
+test
+admin
+sys
+system
+sysman
+scott
+aqadm
+Dbsnmp
