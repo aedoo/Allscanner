@@ -15,7 +15,7 @@ def elasticburp(ip,port):
         sock_9200.settimeout(1)
         sock_9200.connect(addr)
 
-        print '%s 9200 open!'
+        #print '%s 9200 open!'
 
         try:
             data = urllib2.urlopen(url).read()
