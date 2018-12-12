@@ -1,0 +1,6 @@
+ipaddr
+python-mysql
+pymongo
+psycopg2
+pymssql
+cx_Oracle
